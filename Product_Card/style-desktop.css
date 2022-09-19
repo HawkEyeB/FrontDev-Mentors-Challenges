@@ -1,0 +1,35 @@
+@media (min-width: 750px) {
+    .card-img {
+        display: none;
+    }
+
+    .container {
+        max-width: 90em;
+    }
+
+    .flex-card {
+        margin: 0 auto;
+        max-width: 510px;
+    }
+
+    .flex-card {
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    .flex-card .card-img img {
+        object-fit: cover;
+        height: 100%;
+        padding: 0;
+        border-radius: 1em 0em 0 1em;
+
+    }
+
+    .flex-card .card-desktop {
+        min-width: 260px;
+    }
+
+    .card-information {
+        max-width: 250px;
+    }
+}
