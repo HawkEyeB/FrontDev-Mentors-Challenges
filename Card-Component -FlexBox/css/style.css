@@ -37,7 +37,8 @@ p {
 }
 
 .color-focus {
-    color: rgba(166, 53, 170, 0.753);
+    /* color: rgba(166, 53, 170, 0.753); */
+    color: var(--accent);
 }
 
 .container {
@@ -51,7 +52,7 @@ p {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    padding: 0 1.5em;
+    padding: 1em 1em;
 }
 
 .d-flex {
@@ -80,14 +81,13 @@ p {
 }
 
 .img-card {
-    background-color: var(--accent);
+    background-color: rgba(138, 10, 177, 0.829);
     width: 100%;
 }
 
 .img-card img {
     opacity: 0.6;
     filter: contrast(160%);
-    filter: brightness(60%);
     filter: saturate(250%);
 }
 
