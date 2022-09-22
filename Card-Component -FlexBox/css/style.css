@@ -23,7 +23,6 @@
 }
 
 body {
-    background-color: var(--main-background);
     font-size: 15px;
 }
 
@@ -46,7 +45,7 @@ p {
 .container {
     max-width: 25rem;
     margin: 0 auto;
-    /* background-color: var(--main-background); */
+    background-color: var(--main-background);
 }
 
 .d-box {
