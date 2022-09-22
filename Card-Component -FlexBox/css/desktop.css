@@ -1,0 +1,66 @@
+@media (min-width: 992px) {
+
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 96rem;
+    }
+
+    .d-box {
+        align-items: center;
+    }
+
+    .d-flex {
+        flex-direction: row-reverse;
+        /* flex-shrink: 0; */
+        max-width: 66.13rem;
+
+    }
+
+    .img-card,
+    img {
+        width: 100%;
+        border-radius: 0 1em 1em 0;
+
+    }
+    
+    .cell-img {
+        display: none;
+    }
+
+    .text-card {
+        text-align: start;
+        padding: 0 6em 0 6em;
+        width: 85%;
+    }
+
+    .text-card h2 {
+        font-size: 2rem
+    }
+
+    .info-card {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2em;
+
+    }
+
+    .info-text {
+        text-align: start;
+    }
+
+    .info-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .info-text p {
+        font-size: 0.8rem;
+        padding-top: 0.8rem;
+    }
+
+}
