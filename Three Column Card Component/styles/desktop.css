@@ -1,8 +1,12 @@
-@media (min-width: 992px) {
+@media (min-width: 66.13rem) {
     .container {
         max-width: 90rem;
     }
 
+    a{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
     .d-flex {
         flex-direction: row;
         max-width: 50rem;

@@ -47,7 +47,7 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     padding: 0.5em 0;
-
+    
     color: var(--clr-accents);
 }
 
@@ -80,7 +80,7 @@ p {
     justify-content: space-evenly;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 66.07rem) {
     .style-card {
         width: 65%;
     }
