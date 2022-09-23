@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+    .container {
+        max-width: 90rem;
+    }
+
+    .d-flex {
+        flex-direction: row;
+        max-width: 50rem;
+        margin: 0 auto;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .style-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 2em 1em;
+        min-height: 25rem;
+       
+    }
+    .first-card {
+        border-radius: 1em 0 0 1em;
+        width: 34%;
+
+    }
+
+    .second-card{
+        width: 33.33%;
+    }
+
+    .third-card {
+        border-radius: 0 1em 1em 0;
+        width: 33.33%;
+    }
+
+    .style-button {
+        padding: 4em 0 0em;
+    }
+
+}
