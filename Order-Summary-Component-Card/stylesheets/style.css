@@ -129,10 +129,11 @@ img {
     max-width: 65%;
 }
 
-.information-card h5 {
+.information-card h2 {
     color: var(--link-colors);
     font-size: 0.8rem;
     font-weight: 700;
+    text-align: start;
 }
 
 .information-card p {
@@ -187,17 +188,17 @@ img {
 }
 
 
-@media (min-width: 62rem){
-    .container{
+@media (min-width: 62rem) {
+    .container {
         margin: 0 auto;
         max-width: 90rem;
     }
 
-    .d-box{
+    .d-box {
         background-image: url(../images/pattern-background-desktop.svg);
     }
 
-    .d-flex{
+    .d-flex {
         max-width: 23.43rem;
     }
 }
