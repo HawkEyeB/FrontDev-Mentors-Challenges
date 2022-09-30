@@ -1,0 +1,203 @@
+:root {
+    /* primary */
+    --primary-color: hsl(225, 100%, 94%);
+    --buttons-color: hsl(245, 75%, 52%);
+
+    /* Neutral Colors */
+    --neutral-color: hsl(225, 100%, 98%);
+    --writing-color: hsl(224, 23%, 55%);
+    --link-colors: hsl(223, 47%, 23%);
+
+    /* Fonts */
+
+    --principal-writing: 'Red-Hat-Display', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    /* min-height: 100vh; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a {
+    text-transform: capitalize;
+    font-family: var(--principal-writing);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: var(--link-colors);
+    text-align: center;
+}
+
+p {
+    font-family: var(--principal-writing);
+    color: var(--writing-color);
+    text-align: center;
+}
+
+button {
+    border-radius: 0.8em;
+    padding: 1em 1.5em;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 23.43rem;
+}
+
+.d-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.style-d-box {
+    margin: 0 auto;
+    padding: 2em;
+    min-height: 100vh;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--primary-color);
+}
+
+.d-flex {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    background-color: var(--neutral-color);
+    border-radius: 1em;
+}
+
+.img-card,
+img {
+    border-radius: 1em 1em 0 0;
+}
+
+.card-box {
+    padding: 1.5em;
+    display: grid;
+    gap: 1.5em;
+}
+
+.information-card {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: center;
+
+    background-color: hsla(225, 100%, 94%, 0.267);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+
+.description-card h1 {
+    padding-bottom: 0.8em;
+    font-size: 1.5rem;
+    font-weight: 750;
+}
+
+.description-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+.information-card img {
+    max-width: 65%;
+}
+
+.information-card h5 {
+    color: var(--link-colors);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.information-card p {
+    font-size: 0.85rem;
+    color: var(--writing-color);
+    padding-top: 0.2rem;
+    text-align: start;
+}
+
+.information-card a {
+    font-weight: 700;
+    color: var(--buttons-color);
+    font-size: 0.85rem;
+    padding-left: 1.5em;
+}
+
+.btn-card {
+    display: grid;
+    gap: 1em;
+}
+
+.btn-confirm {
+    background-color: var(--buttons-color);
+    color: var(--neutral-color);
+    font-weight: 700;
+    border: none;
+
+    box-shadow: 0px 10px 8px 2px hsla(0, 0%, 26%, 0.178);
+}
+
+.btn-cancel {
+    background-color: var(--neutral-color);
+    color: var(--writing-color);
+    font-weight: 600;
+    border: none;
+}
+
+.information-card a:hover {
+    text-decoration: none;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.btn-confirm:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+@media (min-width: 62rem){
+    .container{
+        margin: 0 auto;
+        max-width: 90rem;
+    }
+
+    .d-box{
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
+
+    .d-flex{
+        max-width: 23.43rem;
+    }
+}
