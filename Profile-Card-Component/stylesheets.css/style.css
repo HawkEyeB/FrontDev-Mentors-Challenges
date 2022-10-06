@@ -19,6 +19,7 @@
 }
 
 body {
+    background-color: var(--background-body);
     font-size: 18px;
     min-height: 100vh;
 }
