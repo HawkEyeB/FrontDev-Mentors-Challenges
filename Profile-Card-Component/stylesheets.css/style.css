@@ -1,35 +1,37 @@
 :root {
-    --background-body: hsl(185, 75%, 39%);
-    --writing-weak-clr: hsl(227, 10%, 46%);
-    --writing-clr: hsl(229, 23%, 23%);
+  --background-body: hsl(185, 75%, 39%);
+  --writing-weak-clr: hsl(227, 10%, 46%);
+  --writing-clr: hsl(229, 23%, 23%);
 
-    --neutral: hsla(0, 0%, 59%, 0.356);
+  --neutral: hsla(0, 0%, 59%, 0.356);
 
-    --ff: 'Kumbh Sans', sans-serif;
-
-
+  --ff: "Kumbh Sans", sans-serif;
 }
 
 *,
 *::after,
 *::before {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--background-body);
-    font-size: 18px;
-    min-height: 100vh;
+  background-color: var(--background-body);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-color: var(--background-body);
+  font-size: 18px;
+  min-height: 100vh;
 }
 
 img {
-    width: 100%;
-    display: block;
-    border-radius: 1em 1em 0 0;
+  width: 100%;
+  display: block;
+  border-radius: 1em 1em 0 0;
 }
-
 
 h1,
 h2,
@@ -37,25 +39,24 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--ff);
-    text-transform: uppercase;
-    font-weight: 700;
+  font-family: var(--ff);
+  text-transform: uppercase;
+  font-weight: 700;
 
-    color: var(--writing-clr)
+  color: var(--writing-clr);
 }
 
-
 p {
-    font-family: var(--ff);
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-weight: 400;
+  font-family: var(--ff);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 400;
 
-    color: var(--writing-weak-clr)
+  color: var(--writing-weak-clr);
 }
 
 .container {
-    max-width: 20.83rem;
+  max-width: 20.83rem;
 }
 
 /* .top-img {
@@ -64,94 +65,92 @@ p {
 } */
 
 .d-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .d-grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .d-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    min-height: 100vh;
-    border-radius: 1em;
+  min-height: 100vh;
+  border-radius: 1em;
 }
 
 .style {
-    flex: 0;
-    position: relative;
+  flex: 0;
+  position: relative;
 }
 
 .topImg-box img {
-    min-height: 8em;
+  min-height: 8em;
 }
 
 .profile-box {
-    background-color: white;
-    min-height: 8em;
-    flex-direction: column;
-    /* position: relative; */
+  background-color: white;
+  min-height: 8em;
+  flex-direction: column;
+  /* position: relative; */
 }
 
 .profile-box h2::after {
-    content: '26';
-    padding-left: 0.5em;
-    font-weight: 400;
-    color: var(--writing-weak-clr);
+  content: "26";
+  padding-left: 0.5em;
+  font-weight: 400;
+  color: var(--writing-weak-clr);
 }
 
 .profile-box h2 {
-    text-transform: capitalize;
-    font-size: 1.1rem;
-    padding: 1.5em 0 0.5em 0;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  padding: 1.5em 0 0.5em 0;
 }
 
 .profile-box p {
-    font-size: 0.8rem;
-    letter-spacing: 1px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
 }
 
 .img-box {
-    position: absolute;
-    top: 20%;
-    left: 33%;
+  position: absolute;
+  top: 20%;
+  left: 33%;
 
-    border: 6px solid white;
-    border-radius: 20em;
+  border: 6px solid white;
+  border-radius: 20em;
 }
 
 .img-box img {
-    border-radius: 20em;
+  border-radius: 20em;
 }
 
-
 .information-box {
-    display: flex;
-    gap: 3rem;
-    text-align: center;
+  display: flex;
+  gap: 3rem;
+  text-align: center;
 
-    border-top: 1px solid var(--neutral);
-    padding: 1.5em 1.5em;
+  border-top: 1px solid var(--neutral);
+  padding: 1.5em 1.5em;
 
-    background-color: white;
-    border-radius: 0 0 1em 1em;
+  background-color: white;
+  border-radius: 0 0 1em 1em;
 }
 
 .information-box .tittle-b {
-    line-height: 1.6;
-    font-size: 1.3rem;
+  line-height: 1.6;
+  font-size: 1.3rem;
 }
 
 .information-box p {
-    font-size: 0.7rem;
-    letter-spacing: 3px;
+  font-size: 0.7rem;
+  letter-spacing: 3px;
 }
