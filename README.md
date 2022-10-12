@@ -15,7 +15,7 @@
 ##### **Challenges HTML and CSS Only**
 * [Product Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Product_Card)
 * [Card Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Card-Component)
-* [Three Column Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three Column Card Component)
+* [Three Column Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three-Column-Card)
 * [Order Summary Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card)
 
 
