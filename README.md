@@ -11,6 +11,7 @@
 <p> I'm current making a page to navigate to all the challenges I've done for here (Is not much yet). </p>
 
 ### Thank you!!
+<img width = "250" align = "right" src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif">
 
 |**Challenges HTML and CSS Only**|
 |:-------------------------------|
@@ -21,6 +22,6 @@
 |[QR Code Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/QR-Code-Card)|
 |[Profile Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Profile-Card-Component)|
 
-![Programming Cat](/Projetos/Cat.gif)
+
 
 
