@@ -12,8 +12,10 @@
 
 ### Thank you!!
 
-<a href="https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Product_Card"> Product_Card Challenge</a> <br>
-<a href="https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Card-Component -FlexBox"> Card-Component -FlexBox</a> <br>
-<a href="https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three Column Card Component"> Three Column Card</a> <br>
-<a href="https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card"> Summary Component</a>
+##### **Challenges HTML and CSS Only**
+* [Product Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Product_Card)
+* [Card Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Card-Component-FlexBox)
+* [Three Column Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three Column Card Component)
+* [Order Summary Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card)
+
 
