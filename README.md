@@ -11,7 +11,7 @@
 <p> I'm current making a page to navigate to all the challenges I've done for here (Is not much yet). </p>
 
 ### Thank you!!
-<img width = "250" align = "right" src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif">
+[<img src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif" width="250" align = "right"/>](https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif)
 
 |**Challenges HTML and CSS Only**|
 |:-------------------------------|
@@ -25,4 +25,4 @@
 
 
 
-![Cat](https://user-images.githubusercontent.com/56962442/195407603-613d0561-636f-4c53-bfcf-cbf637a94e2e.gif)
+
