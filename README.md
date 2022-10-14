@@ -12,6 +12,7 @@
 
 ### Thank you!!
 [<img src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif" width="250" align = "right"/>](https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif)
+![Cat](https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif)
 
 |**Challenges HTML and CSS Only**|
 |:-------------------------------|
