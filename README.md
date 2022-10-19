@@ -21,6 +21,7 @@
 |[Order Summary Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card)|
 |[QR Code Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/QR-Code-Card)|
 |[Profile Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Profile-Card-Component)|
+|[Single Price Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Single-Price-Card)|
 
 
 
