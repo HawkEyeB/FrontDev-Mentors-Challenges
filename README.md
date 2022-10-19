@@ -11,11 +11,18 @@
 <p> I'm current making a page to navigate to all the challenges I've done for here (Is not much yet). </p>
 
 ### Thank you!!
+[<img src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif" width="250" align = "right"/>](https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif)
 
-##### **Challenges HTML and CSS Only**
-* [Product Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Product_Card)
-* [Card Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Card-Component-FlexBox)
-* [Three Column Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three Column Card Component)
-* [Order Summary Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card)
+|**Challenges HTML and CSS Only**|
+|:-------------------------------|
+|[Product Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Product_Card)|
+|[Card Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Card-Component)|
+|[Three Column Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Three-Column-Card)|
+|[Order Summary Component](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Order-Summary-Component-Card)|
+|[QR Code Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/QR-Code-Card)|
+|[Profile Card](https://hawkeyeb.github.io/FrontDev-Mentors-Challenges/Profile-Card-Component)|
+
+
+
 
 
