@@ -90,6 +90,7 @@ button {
 }
 .card-1 {
   background-color: var(--first-card);
+  border-radius: 1rem 1rem 0 0;
 }
 
 .clr-tittle {
@@ -129,6 +130,19 @@ button {
   padding: 0;
 }
 
+.price::after {
+  content: "per month";
+  display: inline-block;
+  padding-left: 0.7rem;
+
+  text-transform: lowercase;
+  font-size: 1.2rem;
+  font-weight: 300;
+
+  color: var(--neutral);
+  opacity: 0.5;
+}
+
 .card-2 .text-price {
   font-size: 1.2rem;
   font-weight: 200;
@@ -138,6 +152,7 @@ button {
 .card-3 {
   background-color: var(--third-card);
   color: var(--neutral);
+  border-radius: 0 0 1rem 1rem;
 }
 
 .card-3 ul {
