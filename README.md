@@ -1,14 +1,14 @@
 # FrontDev-Mentors-Challenges 💻
 
-<p> Olá. Este diretório é destinado a alguns desafios que realizarei do site FrontDev Mentors</p>
+<p> Olá. Este diretório é destinado aos desafios que realizarei do site FrontDev Mentors</p>
 <p> Eu sou iniciante no Front-End e espero receber muito feedback e conselhos de outros Devs. </p>
-<p> Eu também irei fazer uma página para navegar entre os desafios que eu realizei(No momento, só tenho um). </p>
+<p> Este repositório é exclusivamente para os desafios HTML/CSS. JavaScript terá outro. </p>
 
 ### Obrigado!!
 # 
 <p> Hi. This directory is destinated to some FrontDev Mentors Challenges.</p>
 <p> I'm new to Front-End and hope to get a lot of feedback and advices from others Devs. </p>
-<p> I'm current making a page to navigate to all the challenges I've done for here (Is not much yet). </p>
+<p>This repository is exclusively for HTML/CSS challenges. JavaScript will have another. </p>
 
 ### Thank you!!
 [<img src="https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif" width="250" align = "right"/>](https://github.com/HawkEyeB/FrontDev-Mentors-Challenges/blob/main/Cat.gif)
